@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -43,13 +47,14 @@ hr {
 
 blockquote {
   margin: 0;
-  padding-left: 0;
-  text-indent: 0px;
+  padding: 8px 12px;
   text-align: center;
-  font-size: 17px;
-  background: #ecf0f1;
-  border-left: #7f8c8d;
+  font-size: 16px;
   font-style: italic;
+  background: #ecf0f1;
+  border-left:3px solid #7f8c8d;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  
 }
 
 blockquote + p {
@@ -69,7 +74,7 @@ ol, ul {
 }
 
 a {
-    color: #e74c3c;
+    color: rgba(10, 33, 117, 0.882);
     text-decoration: none;
 }
 
